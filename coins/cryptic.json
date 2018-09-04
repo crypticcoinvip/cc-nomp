@@ -1,0 +1,8 @@
+{
+    "name": "cryptic",
+    "symbol": "cryp",
+    "algorithm": "equihash",
+    "requireShielding": true,
+    "peerMagic": "24e92764",
+    "txfee": 0.01
+}
