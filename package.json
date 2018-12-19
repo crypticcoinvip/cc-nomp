@@ -49,7 +49,7 @@
         "nonce": "1.0.4",
         "redis": "2.7.1",
         "request": "^2.88.0",
-        "stratum-pool": "git+ssh://git@git.sfxdx.ru:cryptic/node-stratum-pool.git"
+        "stratum-pool": "git+ssh://git@git.sfxdx.ru:cryptic/node-stratum-pool-snomp.git"
     },
     "engines": {
         "node": ">=0.10"
