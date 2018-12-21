@@ -85,10 +85,12 @@ npm install
 ```
 
 ##### Pool config
-Take a look at the example json file inside the `pool_configs` directory. Rename it to `zclassic.json` and change the
-example fields to fit your setup.
+Take a look at the example json file inside the `pool_configs` directory (`cryptic.json`).
 
 ```
+Set 2 different tAddresses and 1 zAddress in pool_configs/cryptic.json.
+Please change zAddress to a sapling address after sapling activation (transfer money from old zAddress to tAddress).
+
 Please Note that: 1 Difficulty is actually 8192, 0.125 Difficulty is actually 1024.
 
 Whenever a miner submits a share, the pool counts the difficulty and keeps adding them as the shares. 
