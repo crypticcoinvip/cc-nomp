@@ -1,0 +1,11 @@
+{
+    "name": "cryptic",
+    "symbol": "cryp",
+    "algorithm": "equihash",
+    "requireShielding": true,
+    "payFoundersReward": false,
+    "peerMagic": "24e92764",
+    "overwinter": 300,
+    "sapling": 300,
+    "txfee": 0.01
+}

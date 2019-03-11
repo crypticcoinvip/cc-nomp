@@ -1,0 +1,108 @@
+
+{
+    "enabled": true,
+    "coin": "cryptic_testnet.json",
+
+    "address": "T1VXowPyP9VmMoonAGXJjiLy5NvRA924kic",
+    "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
+
+    "zAddress": "tcfTPM16p9TC64LuGBWS8rJzxqSgi7bjv1j3xYSgQYmpmokvJNKvRTDUGY2jgaYJn6YrFwFe61iQsKNT4YDC4kQEJNpMSPdH",
+    "_comment_zAddress": "a private address used to send coins to tAddress. Use sapling address after sapling activation (transfer money from old zAddress to tAddress).",
+
+    "tAddress": "T1QojG5BAa8WTnGtRMzcrFjwGmVH1rqV1eb",
+    "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
+
+    "walletInterval": 2.5,
+
+    "rewardRecipients": {
+    	"": 0.01,
+    	"": 0.1
+    },
+
+    "paymentProcessing": {
+        "minConf": 6,
+        "enabled": true,
+        "paymentMode": "pplnt",
+        "_comment_paymentMode":"prop, pplnt",
+        "paymentInterval": 150,
+        "minimumPayment": 0.1,
+        "maxBlocksPerPayment": 10,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 23202,
+            "user": "KsdasdjEsWRBF6Y1wv4o0J1QwJ",
+            "password": "dfgdf6ox7HBJmmgVeATk"
+        }
+    },
+
+    "tlsOptions": {
+        "enabled": false,
+        "serverKey":"",
+        "serverCert":"",
+        "ca":""
+    },
+
+    "ports": {
+        "11111": {
+            "diff": 0.05,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 0.05,
+                "maxDiff": 2048,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+        "22222": {
+            "diff": 2,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 3,
+                "maxDiff": 2048,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        },
+        "25523": {
+            "diff": 3,
+            "tls": false,
+            "varDiff": {
+                "minDiff": 3,
+                "maxDiff": 2048,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 23202,
+            "user": "KsdasdjEsWRBF6Y1wv4o0J1QwJ",
+            "password": "dfgdf6ox7HBJmmgVeATk"
+        }
+    ],
+
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 19333,
+        "disableTransactions": true
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "user-mpos",
+        "password": "pass-mpos",
+        "database": "taz",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+
+}
