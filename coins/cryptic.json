@@ -5,7 +5,7 @@
     "requireShielding": true,
     "payFoundersReward": false,
     "peerMagic": "24e92764",
-    "overwinter": 1000000,
-    "sapling": 1000000,
+    "overwinter": 124475,
+    "sapling": 124475,
     "txfee": 0.01
 }
