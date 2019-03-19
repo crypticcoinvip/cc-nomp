@@ -1,8 +1,8 @@
 deleted:
   script:
-  - rm -r /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/z-nomp/
-  - rm -rf /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/z-nomp/
-  - mkdir /var/lib/gitlab-runner/builds/1d9ea636/0/cryptic/z-nomp
+  - rm -r /var/lib/gitlab-runner/builds/1d9ea636/0/cc-nomp/
+  - rm -rf /var/lib/gitlab-runner/builds/1d9ea636/0/cc-nomp/
+  - mkdir /var/lib/gitlab-runner/builds/1d9ea636/0/cc-nomp
 mirror:
   script:
   - git clone http://gitlab-ci-token:${CI_BUILD_TOKEN}@git.sfxdx.ru/cryptic/cc-nomp.git
