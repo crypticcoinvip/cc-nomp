@@ -1,15 +1,15 @@
 
 {
-    "enabled": true,
+    "enabled": false,
     "coin": "cryptic_testnet.json",
 
-    "address": "T1VXowPyP9VmMoonAGXJjiLy5NvRA924kic",
+    "address": "<reward_address>",
     "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
 
-    "zAddress": "tcfTPM16p9TC64LuGBWS8rJzxqSgi7bjv1j3xYSgQYmpmokvJNKvRTDUGY2jgaYJn6YrFwFe61iQsKNT4YDC4kQEJNpMSPdH",
+    "zAddress": "<private_address>_",
     "_comment_zAddress": "a private address used to send coins to tAddress. Use sapling address after sapling activation (transfer money from old zAddress to tAddress).",
 
-    "tAddress": "T1QojG5BAa8WTnGtRMzcrFjwGmVH1rqV1eb",
+    "tAddress": "<payment_address>",
     "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
 
     "walletInterval": 2.5,
@@ -30,8 +30,8 @@
         "daemon": {
             "host": "127.0.0.1",
             "port": 23202,
-            "user": "KsdasdjEsWRBF6Y1wv4o0J1QwJ",
-            "password": "dfgdf6ox7HBJmmgVeATk"
+            "user": "<rpc-user>",
+            "password": "<rpc-password>"
         }
     },
 
@@ -82,8 +82,8 @@
         {
             "host": "127.0.0.1",
             "port": 23202,
-            "user": "KsdasdjEsWRBF6Y1wv4o0J1QwJ",
-            "password": "dfgdf6ox7HBJmmgVeATk"
+            "user": "<rpc-user>",
+            "password": "<rpc-password>"
         }
     ],
 
