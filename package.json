@@ -1,5 +1,5 @@
 {
-    "name": "z-nomp",
+    "name": "cc-nomp",
     "version": "0.0.4",
     "description": "CrypticCoin (Equihash) stratum mining pool based on NOMP",
     "keywords": [
@@ -49,7 +49,7 @@
         "nonce": "1.0.4",
         "redis": "2.7.1",
         "request": "^2.88.0",
-        "stratum-pool": "ssh+git@github.com:crypticcoinvip/node-stratum-pool.git"
+        "stratum-pool": "git+ssh://git@github.com:crypticcoinvip/node-stratum-pool.git"
     },
     "engines": {
         "node": ">=0.10"
