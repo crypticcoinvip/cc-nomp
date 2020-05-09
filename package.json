@@ -1,13 +1,15 @@
 {
     "name": "cc-nomp",
-    "version": "0.0.4.1",
-    "description": "Updated -CrypticCoin (Equihash) stratum mining pool based on NOMP",
+    "version": "0.0.4",
+    "description": "CrypticCoin (Equihash) stratum mining pool based on NOMP",
     "keywords": [
         "stratum",
         "mining",
         "pool",
         "server",
         "poolserver",
+        "zclassic",
+        "zcash",
         "equihash"
     ],
     "homepage": "https://github.com/crypticcoinvip/cc-nomp",
@@ -29,25 +31,25 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bmule/cc-nomp.git"
+        "url": "https://github.com/crypticcoinvip/cc-nomp.git"
     },
     "dependencies": {
-        "async": "^2.3.0",
+        "async": "2.3.0",
         "bignum": "^0.13.0",
         "body-parser": "^1.18.3",
         "colors": "1.1.2",
         "compression": "^1.7.3",
         "dateformat": "2.0.0",
-        "dot": "^1.1.1",
+        "dot": "1.1.1",
         "express": "^4.16.3",
-        "extend": "^3.0.0",
+        "extend": "3.0.0",
         "mysql": "^2.16.0",
-        "node-json-minify": "^1.0.0",
-        "node-watch": "^0.5.2",
-        "nonce": "^1.0.4",
-        "redis": "^2.7.1",
+        "node-json-minify": "1.0.0",
+        "node-watch": "0.5.2",
+        "nonce": "1.0.4",
+        "redis": "2.7.1",
         "request": "^2.88.0",
-        "stratum-pool": "https://github.com/bmule/node-stratum-pool.git"
+        "stratum-pool": "https://github.com/crypticcoinvip/node-stratum-pool.git"
     },
     "engines": {
         "node": ">=0.10"
